@@ -1,0 +1,138 @@
+# ItemStatusNullable
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Investments** | Pointer to [**NullableItemStatusInvestments**](ItemStatusInvestments.md) |  | [optional] 
+**Transactions** | Pointer to [**NullableItemStatusTransactions**](ItemStatusTransactions.md) |  | [optional] 
+**LastWebhook** | Pointer to [**NullableItemStatusLastWebhook**](ItemStatusLastWebhook.md) |  | [optional] 
+
+## Methods
+
+### NewItemStatusNullable
+
+`func NewItemStatusNullable() *ItemStatusNullable`
+
+NewItemStatusNullable instantiates a new ItemStatusNullable object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewItemStatusNullableWithDefaults
+
+`func NewItemStatusNullableWithDefaults() *ItemStatusNullable`
+
+NewItemStatusNullableWithDefaults instantiates a new ItemStatusNullable object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetInvestments
+
+`func (o *ItemStatusNullable) GetInvestments() ItemStatusInvestments`
+
+GetInvestments returns the Investments field if non-nil, zero value otherwise.
+
+### GetInvestmentsOk
+
+`func (o *ItemStatusNullable) GetInvestmentsOk() (*ItemStatusInvestments, bool)`
+
+GetInvestmentsOk returns a tuple with the Investments field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetInvestments
+
+`func (o *ItemStatusNullable) SetInvestments(v ItemStatusInvestments)`
+
+SetInvestments sets Investments field to given value.
+
+### HasInvestments
+
+`func (o *ItemStatusNullable) HasInvestments() bool`
+
+HasInvestments returns a boolean if a field has been set.
+
+### SetInvestmentsNil
+
+`func (o *ItemStatusNullable) SetInvestmentsNil(b bool)`
+
+ SetInvestmentsNil sets the value for Investments to be an explicit nil
+
+### UnsetInvestments
+`func (o *ItemStatusNullable) UnsetInvestments()`
+
+UnsetInvestments ensures that no value is present for Investments, not even an explicit nil
+### GetTransactions
+
+`func (o *ItemStatusNullable) GetTransactions() ItemStatusTransactions`
+
+GetTransactions returns the Transactions field if non-nil, zero value otherwise.
+
+### GetTransactionsOk
+
+`func (o *ItemStatusNullable) GetTransactionsOk() (*ItemStatusTransactions, bool)`
+
+GetTransactionsOk returns a tuple with the Transactions field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetTransactions
+
+`func (o *ItemStatusNullable) SetTransactions(v ItemStatusTransactions)`
+
+SetTransactions sets Transactions field to given value.
+
+### HasTransactions
+
+`func (o *ItemStatusNullable) HasTransactions() bool`
+
+HasTransactions returns a boolean if a field has been set.
+
+### SetTransactionsNil
+
+`func (o *ItemStatusNullable) SetTransactionsNil(b bool)`
+
+ SetTransactionsNil sets the value for Transactions to be an explicit nil
+
+### UnsetTransactions
+`func (o *ItemStatusNullable) UnsetTransactions()`
+
+UnsetTransactions ensures that no value is present for Transactions, not even an explicit nil
+### GetLastWebhook
+
+`func (o *ItemStatusNullable) GetLastWebhook() ItemStatusLastWebhook`
+
+GetLastWebhook returns the LastWebhook field if non-nil, zero value otherwise.
+
+### GetLastWebhookOk
+
+`func (o *ItemStatusNullable) GetLastWebhookOk() (*ItemStatusLastWebhook, bool)`
+
+GetLastWebhookOk returns a tuple with the LastWebhook field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetLastWebhook
+
+`func (o *ItemStatusNullable) SetLastWebhook(v ItemStatusLastWebhook)`
+
+SetLastWebhook sets LastWebhook field to given value.
+
+### HasLastWebhook
+
+`func (o *ItemStatusNullable) HasLastWebhook() bool`
+
+HasLastWebhook returns a boolean if a field has been set.
+
+### SetLastWebhookNil
+
+`func (o *ItemStatusNullable) SetLastWebhookNil(b bool)`
+
+ SetLastWebhookNil sets the value for LastWebhook to be an explicit nil
+
+### UnsetLastWebhook
+`func (o *ItemStatusNullable) UnsetLastWebhook()`
+
+UnsetLastWebhook ensures that no value is present for LastWebhook, not even an explicit nil
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
